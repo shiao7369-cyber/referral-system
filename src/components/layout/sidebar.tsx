@@ -8,6 +8,7 @@ import {
   ArrowLeftRight,
   Users,
   BarChart3,
+  GitBranch,
   FileText,
   Settings,
   Bell,
@@ -54,6 +55,12 @@ const navItems = [
         label: "統計報表",
         icon: BarChart3,
         description: "轉診成效分析",
+      },
+      {
+        href: "/flow-analysis",
+        label: "流向分析",
+        icon: GitBranch,
+        description: "桑基圖轉入轉出分析",
       },
       {
         href: "/audit",
